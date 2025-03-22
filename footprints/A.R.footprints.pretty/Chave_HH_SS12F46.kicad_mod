@@ -1,0 +1,239 @@
+(footprint "Chave_HH_SS12F46"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Chave HH SS12F46 3 terminais ")
+	(property "Reference" "REF**"
+		(at -1.651 -14.9352 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "496d6fd3-2cc1-43e1-9655-903f427d44f2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Chave_HH_SS12F46"
+		(at -1.4732 -20.5232 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "bea485c4-3ce9-4a63-8340-c0f6eee824dd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7997fddc-3c42-4c9e-896f-3534b4c55ff6")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "611632f1-1d05-4f3c-befe-f70f4f13e87b")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e0c244ba-d975-485d-ad0b-c0f792d11674")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -7.74181 -19.5834)
+		(end -7.74181 -17.7834)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3018882d-0622-49c7-a8ff-c9d84af05da6")
+	)
+	(fp_line
+		(start -7.74181 -19.5834)
+		(end -7.74181 -17.7834)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "cebd43a3-9fe6-40ed-99d9-d317cc81cffe")
+	)
+	(fp_line
+		(start -7.74181 -19.5834)
+		(end 4.25819 -19.5834)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "309e0222-b490-43d5-a97d-6a0eb7cd5db2")
+	)
+	(fp_line
+		(start -7.74181 -19.5834)
+		(end 4.25819 -19.5834)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "74696a9e-87eb-4937-8e2d-5f290271f5cd")
+	)
+	(fp_line
+		(start -7.74181 -14.1834)
+		(end -7.74181 -15.9834)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c4d70af8-5adb-4c26-8c57-a1c12065f9eb")
+	)
+	(fp_line
+		(start -7.74181 -14.1834)
+		(end -7.74181 -15.9834)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "dd238f6c-e985-4c56-bfb1-9d9bb72dcd5b")
+	)
+	(fp_line
+		(start 4.25819 -19.5834)
+		(end 4.25819 -17.7834)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "04f5e3fb-3c7f-4d38-834b-d6b8568fa756")
+	)
+	(fp_line
+		(start 4.25819 -19.5834)
+		(end 4.25819 -17.7834)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5d12c2cf-1654-4324-a656-176337d6647e")
+	)
+	(fp_line
+		(start 4.25819 -14.1834)
+		(end -7.74181 -14.1834)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1856ee75-9328-4bd7-847c-0f80e0be9d11")
+	)
+	(fp_line
+		(start 4.25819 -14.1834)
+		(end -7.74181 -14.1834)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d95607f8-7705-41f3-a474-e89b15ce779d")
+	)
+	(fp_line
+		(start 4.25819 -14.1834)
+		(end 4.25819 -15.9834)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "cb2d71ae-d1de-4f36-bfa7-928623ea1a6c")
+	)
+	(fp_line
+		(start 4.25819 -14.1834)
+		(end 4.25819 -15.9834)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e78896da-f0ed-468b-9627-deea347d8bc3")
+	)
+	(pad "" thru_hole circle
+		(at -7.747 -16.891)
+		(size 2.032 2.032)
+		(drill 1.143)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "419323bc-3e5f-45c0-bb60-45fc4a00c260")
+	)
+	(pad "" thru_hole circle
+		(at 4.2418 -16.891)
+		(size 2.032 2.032)
+		(drill 1.143)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "a565e2bc-f949-4330-acf1-7801f95d22d9")
+	)
+	(pad "1" thru_hole circle
+		(at -4.7498 -16.891)
+		(size 1.524 1.524)
+		(drill 0.8128)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "96ee2e76-97c3-40ab-bd9f-47e359f9c3b0")
+	)
+	(pad "2" thru_hole circle
+		(at -1.7526 -16.891)
+		(size 1.524 1.524)
+		(drill 0.8128)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "5940db9b-5cd4-4d4b-9f1b-a2751aacd94b")
+	)
+	(pad "3" thru_hole circle
+		(at 1.2446 -16.891)
+		(size 1.524 1.524)
+		(drill 0.8128)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "ed499282-0d7a-49e3-acbe-1bd68f49834d")
+	)
+	(model "${KICAD6_3DMODEL_DIR}/3D KICAD/CHAVES/Selector Switch - SS12D00.stp"
+		(offset
+			(xyz -1.7526 15.24 1.905)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)

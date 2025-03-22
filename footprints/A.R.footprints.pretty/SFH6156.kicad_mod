@@ -1,0 +1,231 @@
+(footprint "SFH6156"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Optoacopladores de saída transistorizados; Tensão do emissor do coletor máxima: 70 V; Corrente do coletor máxima: 100 mA; Frequencia de trabalho: 250 KHZ IF: 10mA;")
+	(property "Reference" "REF**"
+		(at 0.075235 -4.047555 0)
+		(layer "F.SilkS")
+		(uuid "95dec566-3866-4159-843f-22c6b481aff8")
+		(effects
+			(font
+				(size 1.00311 1.00311)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "SFH6156"
+		(at 0 3.88 0)
+		(layer "F.Fab")
+		(uuid "7f4178a7-eed7-4491-8e04-1244761f6078")
+		(effects
+			(font
+				(size 1.004575 1.004575)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "04c44d1e-6f57-453d-aad9-13d305acf984")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0500d327-f637-4f4d-a055-7365dcb2e4f8")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6a354986-9bde-4d81-85c9-f0915e4e81e1")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -3.25 -2.35)
+		(end 3.25 -2.35)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7bd94cd2-4117-4011-b7f1-577410e079d7")
+	)
+	(fp_line
+		(start -3.25 2.35)
+		(end -3.25 -2.35)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ca92f464-185e-4e61-bb1d-7be8d981da09")
+	)
+	(fp_line
+		(start 3.25 -2.35)
+		(end 3.25 2.35)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9ebb2792-6f1b-4160-847c-036795653197")
+	)
+	(fp_line
+		(start 3.25 2.35)
+		(end -3.25 2.35)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "76874008-9fd2-42a1-9a6c-0a9edbaa75ef")
+	)
+	(fp_circle
+		(center -4.4 -2.6)
+		(end -4.176394 -2.6)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "16b68cf4-d59e-4699-a4b3-1f1a9f8f05ba")
+	)
+	(fp_circle
+		(center -2.3 -1.4)
+		(end -1.939447 -1.4)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "c3801e1b-a4ea-4899-a4d5-8c1cc84a37ff")
+	)
+	(fp_poly
+		(pts
+			(xy -4.61318 -2.8) (xy -4.2 -2.8) (xy -4.2 -2.40687) (xy -4.61318 -2.40687)
+		)
+		(stroke
+			(width 0.01)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "f3682e82-d8d6-4bd8-abbb-ac31f7b14898")
+	)
+	(fp_poly
+		(pts
+			(xy -2.60626 -1.7) (xy -2 -1.7) (xy -2 -1.10264) (xy -2.60626 -1.10264)
+		)
+		(stroke
+			(width 0.01)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "8ab97f9d-c2bf-4f5e-8fc1-77c89129946c")
+	)
+	(fp_line
+		(start -5.65 -2.7)
+		(end 5.65 -2.7)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "74c563f7-7ad0-407e-8ca0-502e0cc36539")
+	)
+	(fp_line
+		(start -5.65 2.7)
+		(end -5.65 -2.7)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "28ea5d76-2c08-4f7c-a13d-11cc23d572b4")
+	)
+	(fp_line
+		(start 5.65 -2.7)
+		(end 5.65 2.7)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "944ceacd-da43-43b8-b50c-de08638d9d30")
+	)
+	(fp_line
+		(start 5.65 2.7)
+		(end -5.65 2.7)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "3d4d77c4-f696-4806-862b-5fb6ba1ec2a9")
+	)
+	(pad "1" smd oval
+		(at -4.45 -1.27)
+		(size 1.85 1.45)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.102)
+		(uuid "5007714a-6111-42a5-82f3-b1a6f0e4368c")
+	)
+	(pad "2" smd oval
+		(at -4.45 1.27)
+		(size 1.85 1.45)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.102)
+		(uuid "e41654e4-0a88-482b-b9fc-b5df1edc1a47")
+	)
+	(pad "3" smd oval
+		(at 4.45 1.27)
+		(size 1.85 1.45)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.102)
+		(uuid "c52dfe62-c420-496c-b275-32511a604cda")
+	)
+	(pad "4" smd oval
+		(at 4.45 -1.27)
+		(size 1.85 1.45)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.102)
+		(uuid "23da2425-0510-4187-91ad-d71d5f4aca74")
+	)
+	(model "Package_DIP.3dshapes/DIP-4_W7.62mm_SMDSocket.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

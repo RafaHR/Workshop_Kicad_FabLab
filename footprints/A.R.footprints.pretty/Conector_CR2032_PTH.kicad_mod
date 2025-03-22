@@ -1,0 +1,186 @@
+(footprint "Conector_CR2032_PTH"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Baterias/pilhas CR2032, CR2025, CR2016.Tamanho do corpo: 24,2x9,2mm;")
+	(property "Reference" "REF**"
+		(at 14.12 3.66 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "c505bf31-3547-4381-8dfd-33ea5dcdf195")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Conector_CR2032_PTH"
+		(at 15.53 28.36 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "cc586147-0bd4-4b71-93db-1475e9867633")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "89de016e-7969-4b27-9012-6cb65f993830")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e3810c70-3ebd-4c80-971d-2a8813e9d786")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Baterias/pilhas CR2032, CR2025, CR2016.Tamanho do corpo: 24,2x9,2mm;"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2c0458a9-aa10-4bb0-b813-56f3d4ef5945")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start 0.89 12.15)
+		(end 3.745772 12.15)
+		(stroke
+			(width 0.25)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "bda8aeef-d500-4089-ac69-a14247af91ca")
+	)
+	(fp_line
+		(start 0.89 19.65)
+		(end 0.89 12.15)
+		(stroke
+			(width 0.25)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "236023a9-93fc-4b1a-bacf-b03546514eba")
+	)
+	(fp_line
+		(start 3.745772 19.65)
+		(end 0.89 19.65)
+		(stroke
+			(width 0.25)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "1d3ad4bc-f8eb-4117-a2f7-6b965454b4df")
+	)
+	(fp_arc
+		(start 3.745772 12.15)
+		(mid 25.190001 15.9)
+		(end 3.745772 19.65)
+		(stroke
+			(width 0.25)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "93971cdb-a5c3-4148-bd1b-188ab35406de")
+	)
+	(fp_circle
+		(center 2.14 15.9)
+		(end 2.64 15.9)
+		(stroke
+			(width 0.25)
+			(type default)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "f3f2befa-cf7f-496b-9590-ddb79287930b")
+	)
+	(fp_circle
+		(center 22.14 15.9)
+		(end 22.64 15.9)
+		(stroke
+			(width 0.25)
+			(type default)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "f41bcf55-5f5b-4b4c-a92b-84ec29e00976")
+	)
+	(fp_text user "+"
+		(at 3.14 16.41 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "ad9dc089-f983-4b91-9894-9c8d9a0ab312")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 13.91 24.71 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "63b77639-58d1-434b-a26d-980b5d2a371e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 2.14 15.9)
+		(size 2.159 2.159)
+		(drill 1.016)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "fafc7471-d5a6-417f-a25b-e3cdc849d802")
+	)
+	(pad "2" thru_hole circle
+		(at 22.14 15.9)
+		(size 2.159 2.159)
+		(drill 1.016)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "582938ee-72a2-4988-933d-0b9dbb1acb84")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/3D KICAD/Conector_CR2032_PTH/KLS5-CR2032-01 battery holder.stp"
+		(offset
+			(xyz 14.2 -15.9 0.2)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

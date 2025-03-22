@@ -1,0 +1,371 @@
+(footprint "Potenciometro_MP2307"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Potenciômetro TC33X-1-103E do módulo Step Down MP2307")
+	(tags "Potenciômetro")
+	(property "Reference" "REF**"
+		(at 10.091599 1.08643 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "ccfc6749-6d1a-4336-8e82-4a623d71634f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Potenciometro_MP2307"
+		(at 9.901599 10.57643 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "1f56faba-4d8d-4ec6-a3ca-925f9abe8920")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 4.351599 -0.95357 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d9c2656b-0f14-410c-a0d4-b6d988530475")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://br.mouser.com/ProductDetail/Bourns/TC33X-1-103E?qs=4vvWAaIu%2Fq5rtw%252Bjip48Mw%3D%3D&mgh=1&utm_id=17633168520&gad_source=1&gclid=CjwKCAjw1emzBhB8EiwAHwZZxcKAB9YyMjUnPZt0nfAxxXjRSSgqIVSL7zl0eLY6EFv_D1toeFtpIRoCFrUQAvD_BwE"
+		(at 103.22 14.78 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4d6b4fb0-caf6-4a38-a8a4-69c5208e8a3b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Trimmer Resistors "
+		(at 8.34 12.74 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f1d50998-6b1b-404f-8eb2-8a7d00adc7cc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start 8.199999 4.519999)
+		(end 8.199999 8.519999)
+		(stroke
+			(width 0.25)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "3ad7d932-b778-465c-a5d7-ea2d377b0a49")
+	)
+	(fp_line
+		(start 8.199999 8.519999)
+		(end 11.449999 8.519999)
+		(stroke
+			(width 0.25)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "6c8cdb50-7792-4d3f-9a6e-f5580e778631")
+	)
+	(fp_line
+		(start 8.799999 4.619999)
+		(end 8.799999 5.259048)
+		(stroke
+			(width 0.25)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "5264724a-a127-4bc9-819f-e0a862d8a6ff")
+	)
+	(fp_line
+		(start 8.799999 7.78095)
+		(end 8.799999 8.519999)
+		(stroke
+			(width 0.25)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "b6e39831-7b75-4de0-aadf-42970bbd013e")
+	)
+	(fp_line
+		(start 8.799999 8.519999)
+		(end 9.524999 8.519999)
+		(stroke
+			(width 0.25)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "e637243e-50e1-40c7-80f3-fb24214c6a2f")
+	)
+	(fp_line
+		(start 8.949999 4.269999)
+		(end 8.949999 4.649999)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "245178b2-607f-4f1a-a21a-002597498669")
+	)
+	(fp_line
+		(start 9.824999 8.389999)
+		(end 9.824999 8.769999)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "9517226a-a398-457f-bd41-a53bf9d3afed")
+	)
+	(fp_line
+		(start 10.399999 4.519999)
+		(end 10.399999 5.000132)
+		(stroke
+			(width 0.25)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "82256bb7-d00e-48b9-b0b0-d12d13105312")
+	)
+	(fp_line
+		(start 10.699999 4.269999)
+		(end 10.699999 4.649999)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "47f398fc-5f85-43e7-bcdd-61838fad9ddb")
+	)
+	(fp_line
+		(start 10.849999 7.780951)
+		(end 10.849999 8.519999)
+		(stroke
+			(width 0.25)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "63d4af4c-299c-46de-b8b8-a6b3a0b6e5dc")
+	)
+	(fp_line
+		(start 11.449999 4.519999)
+		(end 8.199999 4.519999)
+		(stroke
+			(width 0.25)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "6992faab-ba89-46c4-9a52-f2f6ef66c683")
+	)
+	(fp_line
+		(start 11.449999 8.519999)
+		(end 11.449999 4.519999)
+		(stroke
+			(width 0.25)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "f5a7d3e0-844d-4c7d-b6f6-a1094757164b")
+	)
+	(fp_arc
+		(start 8.748399 6.193568)
+		(mid 9.029504 5.724504)
+		(end 9.498567 5.443399)
+		(stroke
+			(width 0.25)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "356f1935-b94e-496f-991d-db738a505259")
+	)
+	(fp_arc
+		(start 8.748399 6.84643)
+		(mid 8.369999 6.519999)
+		(end 8.748399 6.193568)
+		(stroke
+			(width 0.25)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "37b3f88a-2be3-4a61-a3a4-0984fe470a5f")
+	)
+	(fp_arc
+		(start 8.799999 7.78095)
+		(mid 8.199999 6.519999)
+		(end 8.799999 5.259048)
+		(stroke
+			(width 0.25)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "bb2a4390-a90b-4104-9992-6b2401571388")
+	)
+	(fp_arc
+		(start 9.498567 5.443399)
+		(mid 9.824998 5.064999)
+		(end 10.15143 5.443399)
+		(stroke
+			(width 0.25)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "ab00415f-23b5-4c22-9afc-a2320c34ef3e")
+	)
+	(fp_arc
+		(start 9.498567 7.596599)
+		(mid 9.029504 7.315494)
+		(end 8.748399 6.84643)
+		(stroke
+			(width 0.25)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "72b87f43-20f3-46d4-be50-2b6fc5c37028")
+	)
+	(fp_arc
+		(start 9.524999 6.519999)
+		(mid 9.824999 6.219999)
+		(end 10.124999 6.519999)
+		(stroke
+			(width 0.25)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "e309e3ed-e0ac-4ba9-b5c9-fbcdf0db4a5e")
+	)
+	(fp_arc
+		(start 10.124999 6.519999)
+		(mid 9.824999 6.819999)
+		(end 9.524999 6.519999)
+		(stroke
+			(width 0.25)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "474e374b-d45e-45fd-b8dc-e2911d23a913")
+	)
+	(fp_arc
+		(start 10.15143 5.443399)
+		(mid 10.620494 5.724504)
+		(end 10.901599 6.193568)
+		(stroke
+			(width 0.25)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "c8515dca-5284-4443-9c2e-0b2736230538")
+	)
+	(fp_arc
+		(start 10.15143 7.596599)
+		(mid 9.824998 7.975)
+		(end 9.498567 7.596599)
+		(stroke
+			(width 0.25)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "6fce664e-dc3c-4748-bde4-3290a2456247")
+	)
+	(fp_arc
+		(start 10.399999 5.000132)
+		(mid 11.429132 6.260415)
+		(end 10.849999 7.780951)
+		(stroke
+			(width 0.25)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "e0cabb07-0568-416d-9c58-8500a0bdd367")
+	)
+	(fp_arc
+		(start 10.849999 6.205517)
+		(mid 11.278935 6.493517)
+		(end 10.901599 6.84643)
+		(stroke
+			(width 0.25)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "a1af5ba0-299e-4033-80c6-c59c9ab9e2aa")
+	)
+	(fp_arc
+		(start 10.901599 6.84643)
+		(mid 10.620494 7.315494)
+		(end 10.15143 7.596599)
+		(stroke
+			(width 0.25)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "c3dc5c11-20ae-4c1c-8c11-1a2088f45bbd")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 9.691599 2.70643 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "d28b1f07-090a-4aa0-b013-413b2256dce5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at 10.699999 4.459999)
+		(size 1.143 1.524)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "c3546fae-70c6-4971-8770-bc18afadacd3")
+	)
+	(pad "2" smd roundrect
+		(at 9.824999 8.579999)
+		(size 1.27 1.524)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "95feb0a0-d4c3-48cd-891d-5a6bf69e9359")
+	)
+	(pad "3" smd roundrect
+		(at 8.949999 4.459999)
+		(size 1.143 1.524)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "7a1287de-329b-4e39-b906-473c9f0c3076")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/3D KICAD/Potenciometro_MP2307/TC33X-1-103E.stp"
+		(offset
+			(xyz 9.779 -6.604 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 180)
+		)
+	)
+)

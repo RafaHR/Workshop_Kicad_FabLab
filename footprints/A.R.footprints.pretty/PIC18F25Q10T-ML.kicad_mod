@@ -1,0 +1,365 @@
+(footprint "PIC18F25Q10T-ML"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "8-bit Microcontrollers - MCU, 32KB Flash, 2KB RAM, 256B EEPROM, 10b ADC2, 5b DAC, Comp, PWM, CCP, CWG, HLT, WWDT, SCAN/CRC, ZCD, PPS, EUSART, SPI/I2C, IDLE/DOZE/PMD")
+	(tags "Integrated Circuit")
+	(property "Reference" "IC**"
+		(at -1.88 -4.75 0)
+		(layer "F.SilkS")
+		(uuid "7c6b9ec4-789e-44be-a13f-11bf1b1ba997")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "PIC18F25Q10T-ML"
+		(at 5.13 8.01 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "9b45e864-b50b-47b8-ba99-798b67cda68d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "82585a2f-4a14-4675-b8f5-9df39684e330")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" "https://ww1.microchip.com/downloads/aemDocuments/documents/MCU08/ProductDocuments/DataSheets/PIC18F24-25-Q10-Data-Sheet-40001945D.pdf"
+		(at 71.89 13.51 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2249a54f-40fe-4d15-822f-f89e38d873c7")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" "8-bit Microcontrollers - MCU 32KB Flash, 2KB RAM, 256B EEPROM, 10b ADC2, 5b DAC, Comp, PWM, CCP, CWG, HLT, WWDT, SCAN/CRC, ZCD, PPS, EUSART, SPI/I2C, IDLE/DOZE/PMD"
+		(at 84.86 10.61 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b5b55ca9-e891-4972-ba4d-ec0089f68365")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(fp_circle
+		(center -3.3745 -2.925)
+		(end -3.3745 -2.7625)
+		(stroke
+			(width 0.325)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "b8c755cb-75e5-4b15-bfee-e5a733751956")
+	)
+	(fp_line
+		(start -3.625 -3.625)
+		(end 3.625 -3.625)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "e0cb4c3e-868d-4876-a6a6-f04e2c626b61")
+	)
+	(fp_line
+		(start -3.625 3.625)
+		(end -3.625 -3.625)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "e73add01-b38d-4fbd-919d-09fa8ab5ff1b")
+	)
+	(fp_line
+		(start 3.625 -3.625)
+		(end 3.625 3.625)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "0f38760a-9611-4454-b24e-b2470ae2359b")
+	)
+	(fp_line
+		(start 3.625 3.625)
+		(end -3.625 3.625)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "faf26052-3d24-4c0f-aa69-4cec4624e241")
+	)
+	(fp_line
+		(start -3 -3)
+		(end 3 -3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "3acdbe46-f7ef-45f2-88be-d6f80173c9ce")
+	)
+	(fp_line
+		(start -3 -2.35)
+		(end -2.35 -3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "99853a14-fda7-4848-9bba-a3e31ffdc482")
+	)
+	(fp_line
+		(start -3 3)
+		(end -3 -3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f8b1628a-d120-408d-872d-73d0228abc33")
+	)
+	(fp_line
+		(start 3 -3)
+		(end 3 3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "9290afbe-6be4-4c52-bf77-6e3696114dee")
+	)
+	(fp_line
+		(start 3 3)
+		(end -3 3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "23a0d76a-b3e9-4219-95f7-85f9a6c4a01b")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 2.81 5.54 0)
+		(layer "F.Fab")
+		(uuid "433e6a98-1273-4f72-af6f-de3e2945f77b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -2.85 -1.95 90)
+		(size 0.35 1.05)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "7f5e9fdb-e915-4f31-9f91-3dc2fe4db163")
+	)
+	(pad "2" smd rect
+		(at -2.85 -1.3 90)
+		(size 0.35 1.05)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "11572bf1-9d44-4fb9-99ae-c4321a568656")
+	)
+	(pad "3" smd rect
+		(at -2.85 -0.65 90)
+		(size 0.35 1.05)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "3ffb4b45-f5c7-4cee-86bc-0cdd26a5050c")
+	)
+	(pad "4" smd rect
+		(at -2.85 0 90)
+		(size 0.35 1.05)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "4c86ab8d-2d6e-4a49-8f34-03036b247187")
+	)
+	(pad "5" smd rect
+		(at -2.85 0.65 90)
+		(size 0.35 1.05)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "43f1c273-cc57-4d17-beed-98b2eebfe1f6")
+	)
+	(pad "6" smd rect
+		(at -2.85 1.3 90)
+		(size 0.35 1.05)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "6c049bf3-ea3e-41d7-9f7b-c7ecc5884a1c")
+	)
+	(pad "7" smd rect
+		(at -2.85 1.95 90)
+		(size 0.35 1.05)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "15d8a373-4f9d-4c1e-920f-190c5b6306ac")
+	)
+	(pad "8" smd rect
+		(at -1.95 2.85)
+		(size 0.35 1.05)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "f154b574-5fef-4625-9fd5-b58a1a50d177")
+	)
+	(pad "9" smd rect
+		(at -1.3 2.85)
+		(size 0.35 1.05)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "1eba4b4b-fcbd-4ffc-aab1-15367069cc7c")
+	)
+	(pad "10" smd rect
+		(at -0.65 2.85)
+		(size 0.35 1.05)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "9013ba4d-33fb-42f6-a84d-af7c41e91c99")
+	)
+	(pad "11" smd rect
+		(at 0 2.85)
+		(size 0.35 1.05)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "785efc2a-6246-4d0f-ba48-7211221057ff")
+	)
+	(pad "12" smd rect
+		(at 0.65 2.85)
+		(size 0.35 1.05)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "b85f4663-d33a-48e4-9846-739f0b36cc40")
+	)
+	(pad "13" smd rect
+		(at 1.3 2.85)
+		(size 0.35 1.05)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "48f2213d-83ed-4cfb-928d-20c93e3b06de")
+	)
+	(pad "14" smd rect
+		(at 1.95 2.85)
+		(size 0.35 1.05)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "98f22ea4-858d-40a5-bcb9-63b344cdecda")
+	)
+	(pad "15" smd rect
+		(at 2.85 1.95 90)
+		(size 0.35 1.05)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "5a0d41b0-4388-4a42-9eec-002958bff30b")
+	)
+	(pad "16" smd rect
+		(at 2.85 1.3 90)
+		(size 0.35 1.05)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "a50f4c0e-bf6d-44c9-a116-161367c2eb3d")
+	)
+	(pad "17" smd rect
+		(at 2.85 0.65 90)
+		(size 0.35 1.05)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "b0d115b4-9422-484d-8eea-7baefce37ca1")
+	)
+	(pad "18" smd rect
+		(at 2.85 0 90)
+		(size 0.35 1.05)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "8e9aa813-6d97-4760-b484-d9b51b70bf9a")
+	)
+	(pad "19" smd rect
+		(at 2.85 -0.65 90)
+		(size 0.35 1.05)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "90d05426-be41-4dd7-b8aa-d76a8b0112e2")
+	)
+	(pad "20" smd rect
+		(at 2.85 -1.3 90)
+		(size 0.35 1.05)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "8adcaf52-b31b-4787-92c4-a68baed43541")
+	)
+	(pad "21" smd rect
+		(at 2.85 -1.95 90)
+		(size 0.35 1.05)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "ddd7e81a-e3b0-44f6-8f2b-04884043ca5d")
+	)
+	(pad "22" smd rect
+		(at 1.95 -2.85)
+		(size 0.35 1.05)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "9517205e-3d9c-4ae0-9bd7-5d077481abad")
+	)
+	(pad "23" smd rect
+		(at 1.3 -2.85)
+		(size 0.35 1.05)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "de31c6e8-08e8-4fe4-b6c6-1afd0ca99968")
+	)
+	(pad "24" smd rect
+		(at 0.65 -2.85)
+		(size 0.35 1.05)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "248430a9-d94a-4f6d-b610-5f44bcf9ab56")
+	)
+	(pad "25" smd rect
+		(at 0 -2.85)
+		(size 0.35 1.05)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "d94a9780-115b-43f3-99bd-10513a14b804")
+	)
+	(pad "26" smd rect
+		(at -0.65 -2.85)
+		(size 0.35 1.05)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "029f4055-12d8-4b22-8682-666625e3ba04")
+	)
+	(pad "27" smd rect
+		(at -1.3 -2.85)
+		(size 0.35 1.05)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "fc2bc142-b9be-4e1a-b2e4-1a51f3f7215d")
+	)
+	(pad "28" smd rect
+		(at -1.95 -2.85)
+		(size 0.35 1.05)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "01434d00-0aee-40eb-9eae-a2eb94c6f33d")
+	)
+	(pad "29" smd rect
+		(at 0 0)
+		(size 4.2 4.2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "c28a2d86-1fb5-4e10-80fb-b92f81ad8bf4")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/3D KICAD/PIC18F25Q10T_ML/PIC18F25Q10T-I_ML.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

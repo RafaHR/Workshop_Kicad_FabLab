@@ -1,0 +1,197 @@
+(footprint "Jump_smd_2_pin"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Jump smd de 2 pinos, distância de 0,5mm.")
+	(tags "Jump")
+	(property "Reference" "REF**"
+		(at 3.2625 0.96 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "5f7f100c-e1aa-4832-a3d9-96964241a89a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Jump_smd_2_pin"
+		(at 6.9425 4.61 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "a4dae70f-63d9-45a1-91db-ced5f9378f26")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 3.2625 1.46 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "59c1add6-0288-4567-ad0a-d936a06de12f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 3.2625 1.46 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5653f505-3456-4778-9798-ed265c9b123e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Jump smd de 2 pinos, distância de 0,5mm."
+		(at 17.28 6.22 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "56fc813f-424a-4a8d-8838-60702389d7e9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start 2.435436 2.035)
+		(end 2.889564 2.035)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "baebf379-564b-4b2e-af64-9678abc90ca3")
+	)
+	(fp_line
+		(start 2.435436 3.505)
+		(end 2.889564 3.505)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "85b76aaa-6195-421b-b293-f67cdb242970")
+	)
+	(fp_line
+		(start 0.9825 1.82)
+		(end 4.3425 1.82)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "215d52b1-dba4-4267-9d37-92fba33db2b9")
+	)
+	(fp_line
+		(start 0.9825 3.72)
+		(end 0.9825 1.82)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "e44e6a01-73f3-4885-8ce9-a67176e1f889")
+	)
+	(fp_line
+		(start 4.3425 1.82)
+		(end 4.3425 3.72)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "cafaabb3-89ae-48be-8c41-a7afa03e5b83")
+	)
+	(fp_line
+		(start 4.3425 3.72)
+		(end 0.9825 3.72)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "c4dd29e7-055c-40ec-972e-6f3e27e7d627")
+	)
+	(fp_line
+		(start 1.6625 2.145)
+		(end 3.6625 2.145)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b9f24bd0-bc7e-4a46-bdc0-2ac838a66fb1")
+	)
+	(fp_line
+		(start 1.6625 3.395)
+		(end 1.6625 2.145)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "3c1d9243-b6c3-4256-a8c0-66434b3327a1")
+	)
+	(fp_line
+		(start 3.6625 2.145)
+		(end 3.6625 3.395)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "5a1b7574-eb9b-4fa0-9e0c-5dacb6f64e4a")
+	)
+	(fp_line
+		(start 3.6625 3.395)
+		(end 1.6625 3.395)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "977b6e03-997f-44eb-b5c0-7b3b49552749")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 2.6625 2.77 0)
+		(layer "F.Fab")
+		(uuid "519bb799-169a-404c-a092-04610a68f49c")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.08)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at 1.9 2.77)
+		(size 1.025 1.4)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.243902)
+		(uuid "d8265f39-6fb7-4012-af29-97447d51241c")
+	)
+	(pad "2" smd roundrect
+		(at 3.43 2.77)
+		(size 1.025 1.4)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.243902)
+		(uuid "adece956-7ef1-48ee-86e9-1084439fa079")
+	)
+)

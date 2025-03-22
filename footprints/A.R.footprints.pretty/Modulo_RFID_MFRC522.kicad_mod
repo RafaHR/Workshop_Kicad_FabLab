@@ -1,0 +1,349 @@
+(footprint "Modulo_RFID_MFRC522"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Tensão: 3.3V; Corrente consumida durante leituras/escrita: 13-26mA; Frequência de operação: 13,56MHz; Corrente consumida em standby: 10-13mA; Pico de corrente: < 30mA;")
+	(tags "RFID")
+	(property "Reference" "REF**"
+		(at 2.47 -0.27 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "c8bf263b-a172-4086-906a-efb8be052dab")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Modulo_RFID_MFRC522"
+		(at 8.709994 62.279995 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "b784f93d-b415-479d-8119-555920220d2d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9893d893-5005-4cf4-8f49-21c88c6c1bf4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.arduinoecia.com.br/controle-de-acesso-modulo-rfid-rc522/"
+		(at 29.42 64.19 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8c97506f-f92d-4837-864f-1e198f7bcdda")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Tensão: 3.3V; Corrente consumida durante leituras/escrita: 13-26mA; Frequência de operação: 13,56MHz; Corrente consumida em standby: 10-13mA; Pico de corrente: < 30mA;"
+		(at 69.11 66.32 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ec4e9f48-aea5-45b0-81b2-ac82a9f787cc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start 0.419994 0.709995)
+		(end 0.419994 60.609995)
+		(stroke
+			(width 0.25)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "5df82af1-72c6-4c9d-836d-c97bd8690ac6")
+	)
+	(fp_line
+		(start 0.419994 60.609995)
+		(end 39.619994 60.609995)
+		(stroke
+			(width 0.25)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "da0e17e0-fb76-42e6-8728-8044aedecc54")
+	)
+	(fp_line
+		(start 9.94 3.79)
+		(end 9.94 2.46)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "48b19760-7757-4177-adda-b16df613d9c2")
+	)
+	(fp_line
+		(start 11.27 3.79)
+		(end 9.94 3.79)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a9b17374-4561-471c-a7ed-19293cd8f6fd")
+	)
+	(fp_line
+		(start 12.54 1.13)
+		(end 30.38 1.13)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f1984cf6-01ed-4169-ab55-9bad6ff3553a")
+	)
+	(fp_line
+		(start 12.54 3.79)
+		(end 12.54 1.13)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "fef9e599-7a2b-40b5-a389-132a037f0bf5")
+	)
+	(fp_line
+		(start 12.54 3.79)
+		(end 30.38 3.79)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e99e7427-1933-4997-b5f0-f9cf93da5cf7")
+	)
+	(fp_line
+		(start 30.38 3.79)
+		(end 30.38 1.13)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "265042fd-1a2e-4a4e-add6-911dfaca033b")
+	)
+	(fp_line
+		(start 39.619994 0.709995)
+		(end 0.419994 0.709995)
+		(stroke
+			(width 0.25)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "049c4392-21d9-4e42-a511-6390b2ded137")
+	)
+	(fp_line
+		(start 39.619994 60.609995)
+		(end 39.619994 0.709995)
+		(stroke
+			(width 0.25)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "b73bb730-b270-4325-98d2-d19f080cbf72")
+	)
+	(fp_line
+		(start 9.47 0.66)
+		(end 9.47 4.26)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "fb2f0d38-6c3c-4a52-8947-3f1b564f60a2")
+	)
+	(fp_line
+		(start 9.47 4.26)
+		(end 30.82 4.26)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "a30da4e8-8346-45fb-a56c-8e705cceea6d")
+	)
+	(fp_line
+		(start 30.82 0.66)
+		(end 9.47 0.66)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "f25252a9-27f7-45a5-998c-aead672a85a6")
+	)
+	(fp_line
+		(start 30.82 4.26)
+		(end 30.82 0.66)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "4c7021b8-2666-493d-9ca2-3c1e97588ee2")
+	)
+	(fp_line
+		(start 10 1.19)
+		(end 30.32 1.19)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "571330f0-0fae-4676-be05-7cf96f953557")
+	)
+	(fp_line
+		(start 10 3.095)
+		(end 10 1.19)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d706b9dd-f55a-4534-8713-11734c36dca3")
+	)
+	(fp_line
+		(start 10.635 3.73)
+		(end 10 3.095)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "efbfa69b-3f07-4b36-b899-fd93f84c20b2")
+	)
+	(fp_line
+		(start 30.32 1.19)
+		(end 30.32 3.73)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ed79e41d-bcea-4bee-a4bb-3c03f90f4896")
+	)
+	(fp_line
+		(start 30.32 3.73)
+		(end 10.635 3.73)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "dba81702-9f60-4452-a407-bd79ff0e8c41")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 21.039994 59.279995 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "596baeb3-71fd-4580-8c94-7f042f62436c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at 11.27 2.46 90)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "fc2105dc-5793-41c8-b7ba-ae4a00b28fb0")
+	)
+	(pad "2" thru_hole oval
+		(at 13.81 2.46 90)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "14be8030-0143-4c7b-bc32-d288faf3557e")
+	)
+	(pad "3" thru_hole oval
+		(at 16.35 2.46 90)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "f0ee048e-bd64-452e-9ce7-acac73f94211")
+	)
+	(pad "4" thru_hole oval
+		(at 18.89 2.46 90)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "e9a46494-cfd2-44bd-8dc5-e26f2f698887")
+	)
+	(pad "5" thru_hole oval
+		(at 21.43 2.46 90)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "ad35b114-2d4e-4f0c-a0f7-0872560b2861")
+	)
+	(pad "6" thru_hole oval
+		(at 23.97 2.46 90)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "8f30b88a-1913-4e1e-9811-74fbfc9739c5")
+	)
+	(pad "7" thru_hole oval
+		(at 26.51 2.46 90)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "2705d3b6-f39c-4f68-aa6a-0bf5feb8004d")
+	)
+	(pad "8" thru_hole oval
+		(at 29.05 2.46 90)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "6faa4e06-fd4d-41eb-9a0c-773b62a309da")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/3D KICAD/RFID_MFRC522/RFID Com Barra de pino Macho.STEP"
+		(offset
+			(xyz -12.573 -75.1332 -18.288)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 180)
+		)
+	)
+)

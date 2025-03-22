@@ -1,0 +1,172 @@
+(footprint "Rele AX1RC-5V"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Marca: Metaltex, Bobina: 5VDC 75mA, Corrente de comutação máx: 15A, 10 operações mín./operations min. (300 operações/minuto) (operations/minute)")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "c6753d61-c647-4ede-86ea-7844fc8e74f3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Rele AX1RC-5V"
+		(at 3.78 16.93 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "614f6d02-6449-4a2c-971e-8e192de19b86")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ddc1e544-f7cd-4641-8150-34e22d60b11f")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "868018b9-8823-416e-b887-c6f531038887")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "23125ef9-2494-433f-b529-2ea0247106b6")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -1.96 0.75)
+		(end -1.96 15.75)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "bed8724e-3166-4d31-9067-4cb543fc8109")
+	)
+	(fp_line
+		(start -1.96 15.75)
+		(end 16.84 15.75)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "25e29ebf-ce43-46ea-b0be-9e0ba9c84fe2")
+	)
+	(fp_line
+		(start 16.84 0.75)
+		(end -1.96 0.75)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "da3748b0-3388-4ba2-a362-f7b26c4df088")
+	)
+	(fp_line
+		(start 16.84 15.75)
+		(end 16.84 0.75)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "652c36e7-f004-4ccd-a27a-7fba8b72b4d7")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 18.05 8.14 90)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "cd028bff-6424-494b-895f-aaa1a0b54dc2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole roundrect
+		(at -0.56 8.25)
+		(size 2.5146 2.5146)
+		(drill 1.2954)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.25)
+		(uuid "06427e24-caa1-4481-92c4-3fbef9a5feea")
+	)
+	(pad "2" thru_hole circle
+		(at 1.44 14.15)
+		(size 2.5146 2.5146)
+		(drill 1.2954)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "91d67966-b7bd-4eb3-9394-ef7d29864d9f")
+	)
+	(pad "3" thru_hole circle
+		(at 13.44 14.15)
+		(size 2.5146 2.5146)
+		(drill 1.2954)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "2e249c8f-d94d-4083-9267-75065d94d40d")
+	)
+	(pad "4" thru_hole circle
+		(at 13.44 2.35)
+		(size 2.5146 2.5146)
+		(drill 1.2954)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "8479cec7-9b78-41c0-936c-88323293b791")
+	)
+	(pad "5" thru_hole circle
+		(at 1.44 2.35)
+		(size 2.5146 2.5146)
+		(drill 1.2954)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "e1d208e7-4a65-49d8-9c35-9d07c7120347")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/3D KICAD/Rele AX1RC-5V/Rele AX1RC-5V.STEP"
+		(offset
+			(xyz 7.493 -8.255 0.635)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)

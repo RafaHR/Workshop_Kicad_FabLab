@@ -1,0 +1,204 @@
+(footprint "Crystal-ABM3-8.000MHZ-J4Q-T"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "ABM3")
+	(tags "Crystal or Oscillator")
+	(property "Reference" "Y**"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(uuid "3082b892-5d51-4434-8e64-95e9dcc078ce")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "Crystal-ABM3-8.000MHZ-J4Q-T"
+		(at 2.79 3.45 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "c875d666-16a4-4307-956d-00d39f8a3818")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9db5f556-98a9-4315-9187-c0186671dfa8")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" "https://br.mouser.com/datasheet/2/3/abm3-1774854.pdf"
+		(at 29.36 7.85 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2ccb1796-8256-433d-b110-8d0b9f2efd54")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" "https://br.mouser.com/ProductDetail/ABRACON/ABM3-8000MHZ-J4Q-T?qs=xZ%2FP%252Ba9zWqYQ2Jh2Xa1DGw%3D%3D&mgh=1&utm_id=17633168520&gad_source=1&gclid=Cj0KCQjwjY64BhCaARIsAIfc7YYL2PHbCxzSPX8Tycy4WhnjvSWAIqqbVtHqaTAAB5h_2ErSxqwk53QaAvTvEALw_wcB"
+		(at 136.61 5.28 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "39a562a6-8348-4b0c-add7-428733a5cb73")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -2.5 -1.6)
+		(end 2.5 -1.6)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "69ba8eb3-9651-49cc-921b-0e259ccba7c4")
+	)
+	(fp_line
+		(start -2.5 1.6)
+		(end 2.4 1.6)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e604fc22-dca9-47dc-a5fe-6a203e5b79da")
+	)
+	(fp_line
+		(start -2.2 2.2)
+		(end -2.2 2.2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "130fd48c-3054-408c-b47b-1dcf78f31175")
+	)
+	(fp_line
+		(start -2.1 2.2)
+		(end -2.1 2.2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f198f8a8-3583-47da-88b4-3bd25e83f4a8")
+	)
+	(fp_arc
+		(start -2.2 2.2)
+		(mid -2.15 2.15)
+		(end -2.1 2.2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5941b924-8d24-4609-9520-04e47d290529")
+	)
+	(fp_arc
+		(start -2.1 2.2)
+		(mid -2.15 2.25)
+		(end -2.2 2.2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "39113252-cc8f-4f88-8859-4a57a05a3ca3")
+	)
+	(fp_line
+		(start -2.5 -1.6)
+		(end 2.5 -1.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "35688e2c-f2c5-4577-8f7e-a6e404d80c6f")
+	)
+	(fp_line
+		(start -2.5 1.6)
+		(end -2.5 -1.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "0598c8b6-fd44-4ac5-b222-3b8a5f77ec27")
+	)
+	(fp_line
+		(start 2.5 -1.6)
+		(end 2.5 1.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "071c32b2-3f3a-4cc1-825b-4b47607b43d1")
+	)
+	(fp_line
+		(start 2.5 1.6)
+		(end -2.5 1.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "681725a6-e426-458a-9b0f-532c70db1506")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "5b1d13d6-8b0d-471b-912a-88151bb67caa")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -2.05 0)
+		(size 1.9 2.4)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "a6ba5ebe-f5d6-4c85-84d4-e33293889676")
+	)
+	(pad "2" smd rect
+		(at 2.05 0)
+		(size 1.9 2.4)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "fcca8d49-b50c-4459-8f70-384607d1bbb5")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/3D KICAD/Cystal-ABM3/ABM3-8.000MHZ-J4Q-T.stp"
+		(offset
+			(xyz 0 0 0.2499999962)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)

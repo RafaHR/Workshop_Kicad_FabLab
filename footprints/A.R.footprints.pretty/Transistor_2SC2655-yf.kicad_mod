@@ -1,0 +1,262 @@
+(footprint "Transistor_2SC2655-yf"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Canal: NPN; Tensão: 50V; Corrente: 2A; Potencia 0,9W; Encapsulamento: TO-92L;")
+	(tags "2SC2655-yf ")
+	(property "Reference" "REF**"
+		(at 3.5399 0.7 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "e71aaa00-8189-42ad-b74e-8fecf39b519c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Transistor_2SC2655-yf"
+		(at 10.12 9.61 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "f080078e-7a8d-4ec7-9119-35e275b516c1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 2.6399 5.15 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b37c6e87-5b4c-44fb-bb14-519cae08cc21")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" "http://www.secosgmbh.com/datasheet/products/SSMPTransistor/TO-92MOD/2SC2655.pdf"
+		(at 45.47 11.52 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "56817077-912d-497e-9426-f8648ea29b94")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" "Canal: NPN; Tensão: 50V; Corrente: 2A; Potencia 0,9W; Encapsulamento: TO-92L;  Link de arquivos do Transistor  2SC2655:"
+		(at 62.63 13.72 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4e1b5359-c49e-4f9f-ac39-4b98dd50ec8a")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start 3.14156 6.8137)
+		(end 7.21824 6.8137)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "af5e8c2a-ad06-4f8c-bd66-8f8c8b37ba21")
+	)
+	(fp_arc
+		(start 2.757396 4.004458)
+		(mid 5.183088 2.470302)
+		(end 7.605123 4.010225)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "73f3b0f0-c113-43a7-9013-955a63788264")
+	)
+	(fp_arc
+		(start 3.040151 6.763154)
+		(mid 2.886823 6.536574)
+		(end 2.757396 6.295542)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "755a301c-6bcb-4443-a4b0-d87bd7acf698")
+	)
+	(fp_arc
+		(start 7.605122 6.289775)
+		(mid 7.474621 6.533843)
+		(end 7.319649 6.763154)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a2ce0fd5-bb68-47df-a213-cfc86c03371f")
+	)
+	(fp_circle
+		(center 0.7222 5.15)
+		(end 0.8492 5.15)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "b6230c92-b514-4d77-bd81-c94d1da979bf")
+	)
+	(fp_line
+		(start 1.5731 1.5432)
+		(end 8.7867 1.5432)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "80db9bc1-9b72-4e8f-ad6a-abb882a0eb33")
+	)
+	(fp_line
+		(start 1.5731 6.9407)
+		(end 1.5731 1.5432)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "9aed410c-f63a-4027-8b10-d3565a7f9e35")
+	)
+	(fp_line
+		(start 8.7867 1.5432)
+		(end 8.7867 6.9407)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "0fd12956-d96c-426a-b905-e3158c76b258")
+	)
+	(fp_line
+		(start 8.7867 6.9407)
+		(end 1.5731 6.9407)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "797e22be-5242-43f5-b79d-c3655c6619c5")
+	)
+	(fp_line
+		(start 2.3859 5.15)
+		(end 2.8939 5.15)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "5133fc87-e266-48b0-a5c5-ff21387060f2")
+	)
+	(fp_line
+		(start 2.6399 5.404)
+		(end 2.6399 4.896)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "9fa9b30d-a77c-4171-bb25-8dfa1e485f1e")
+	)
+	(fp_line
+		(start 3.14156 6.6867)
+		(end 7.21824 6.6867)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "8843eed3-b882-4b06-a383-e5a21674cc61")
+	)
+	(fp_arc
+		(start 3.141559 6.686699)
+		(mid 5.179901 2.5973)
+		(end 7.21824 6.6867)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "06c585a2-2af3-4a4c-9e0f-5e8ed4a2986f")
+	)
+	(fp_circle
+		(center 2.8812 5.15)
+		(end 3.0082 5.15)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "608d52db-e73c-4a72-8a2d-57fdc9bdf1d1")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 6.7299 7.9 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "fe7899ff-ddfb-4dc3-bffb-5494dafdb79c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at 2.6399 5.15)
+		(size 1.6256 1.6256)
+		(drill 1.1176)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "82154d7e-e24c-45db-b76c-e0f443d7a3c0")
+	)
+	(pad "2" thru_hole circle
+		(at 5.1799 5.15)
+		(size 1.6256 1.6256)
+		(drill 1.1176)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "6a80dfc1-e3b0-4bdb-8946-ee3ef9bc05a9")
+	)
+	(pad "3" thru_hole circle
+		(at 7.7199 5.15)
+		(size 1.6256 1.6256)
+		(drill 1.1176)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "cdb454dc-1d90-44f7-ac46-7462d4d7abed")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/3D KICAD/Transistor_2SC2655/Transistor_2SC2655.step"
+		(offset
+			(xyz 2.54 -5.08 3.175)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

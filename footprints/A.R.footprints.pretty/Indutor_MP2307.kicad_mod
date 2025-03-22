@@ -1,0 +1,191 @@
+(footprint "Indutor_MP2307"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Indutor smd 630 - 6.8x6.8x2mm do módulo Step Down MP2307")
+	(tags "Indutor")
+	(property "Reference" "REF**"
+		(at 6.17 1.08 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "d20c0218-f76e-4cf1-803d-2e10ecf23028")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Indutor_MP2307"
+		(at 7.38 9.63 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "b9d2cb62-1725-402f-937a-35404c8da814")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5302e9d0-6601-4b29-a79e-d5090f5b46bc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://grabcad.com/library/amplf-mpc-aspi-etc-smd-power-inductors-1"
+		(at 31.45 13.38 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "edd0dc9e-fe76-49e0-afcb-ddd246723d09")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Indutor smd 6.8x6.8x2mm do módulo Step Down MP2307"
+		(at 23.56 11.58 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "85998566-6f7d-48fd-8db9-916ac013da54")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start 3.97 4.12)
+		(end 3.97 6.77)
+		(stroke
+			(width 0.25)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "3e580e33-5d3d-46da-89ad-9d0fc3bd7160")
+	)
+	(fp_line
+		(start 4.12 6.77)
+		(end 4.12 4.17)
+		(stroke
+			(width 0.25)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "47f1455f-feb8-4abf-9c00-64d136b6482a")
+	)
+	(fp_line
+		(start 4.17 8.57078)
+		(end 4.17 2.170778)
+		(stroke
+			(width 0.25)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "17c61f14-b9d4-427c-a307-a72587fdd512")
+	)
+	(fp_line
+		(start 4.219998 8.570778)
+		(end 10.67 8.570778)
+		(stroke
+			(width 0.25)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "db3a330f-e03f-478b-a5e9-fcbd85f87012")
+	)
+	(fp_line
+		(start 10.67 2.170778)
+		(end 4.17 2.170778)
+		(stroke
+			(width 0.25)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "c982feef-026b-44e3-ac52-8fe8c499a1c9")
+	)
+	(fp_line
+		(start 10.67 2.170778)
+		(end 10.67 8.570778)
+		(stroke
+			(width 0.25)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "16687e60-0b7b-45bb-934a-02f60bf8e527")
+	)
+	(fp_line
+		(start 10.72 4.17)
+		(end 10.72 6.770004)
+		(stroke
+			(width 0.25)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "b9eca49b-51dc-46dd-96ff-e7d053e35904")
+	)
+	(fp_line
+		(start 10.87 6.82)
+		(end 10.87 4.12)
+		(stroke
+			(width 0.25)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "a2ceeee7-e0ca-4ec7-a54f-af14229368c7")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 7.23 7.84 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "89d05502-c845-4ac8-8156-4b8c606076b2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at 3.97 5.445)
+		(size 2.032 3.048)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "acfb6705-3df2-4bdc-8a8a-d851785753dd")
+	)
+	(pad "2" smd roundrect
+		(at 10.87 5.47)
+		(size 2.032 3.048)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "be684e3a-a913-4a71-8aed-38c6e172bf5d")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/3D KICAD/inductors-smd/STEP/Inductor_SMD_AMPLF_0630.STEP"
+		(offset
+			(xyz 7.4168 -5.334 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 90)
+		)
+	)
+)

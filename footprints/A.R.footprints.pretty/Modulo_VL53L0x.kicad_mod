@@ -1,0 +1,323 @@
+(footprint "Modulo_VL53L0x"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Tensão: 3,3 a 5 v (Regulador integrado); Distância de medida recomendada: 30 - 1000 mm; Distância de medição absoluta: 2m; Comunicação: I2C (programável);")
+	(property "Reference" "REF**"
+		(at 2.19 1.52 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "3f671349-120a-47da-870e-20ecc2af8f53")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Modulo_VL53L0x"
+		(at 6.19 14.57 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "73f51214-5dc0-4244-aeee-4d6d1b4acf92")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d7da41d0-210f-469b-bb5b-51a68b693294")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ba835eb7-9e10-4771-b4cf-7a490874fa17")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1f00703c-a967-4ac7-a0ca-bbbcace88046")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -1.54 5.27)
+		(end 0.21 5.27)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "939588e7-edcf-4d95-8d6a-34c9ce531e10")
+	)
+	(fp_line
+		(start -1.54 10.77)
+		(end 0.21 10.77)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b6aca17a-b439-45ea-b18a-277007682f05")
+	)
+	(fp_line
+		(start 0.21 2.52)
+		(end 0.21 5.27)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "99c693f3-010c-4b09-b4a1-52d6f165f1de")
+	)
+	(fp_line
+		(start 0.21 13.52)
+		(end 0.21 10.77)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "64c913bc-17e0-4c22-9924-e6b6bc0e73bc")
+	)
+	(fp_line
+		(start 5.96 4.77)
+		(end 5.96 7.27)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "04009d39-90bd-4a1a-9a94-6160ec335b12")
+	)
+	(fp_line
+		(start 5.96 7.27)
+		(end 10.46 7.27)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8c747059-a1d8-4540-9fc4-4645bd554ed5")
+	)
+	(fp_line
+		(start 10.46 4.77)
+		(end 5.96 4.77)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2f11ca1e-5b2d-4254-91e9-f69ad99bdd18")
+	)
+	(fp_line
+		(start 10.46 7.27)
+		(end 10.46 4.77)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "334c2f91-0117-4b92-aeb7-48a081c09e12")
+	)
+	(fp_line
+		(start 16.21 2.52)
+		(end 0.21 2.52)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "65d600ce-3636-4b53-94f0-10d4d64c60a8")
+	)
+	(fp_line
+		(start 16.21 2.52)
+		(end 16.21 5.27)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3657afda-1768-42d9-92d9-0d8c9b25ca81")
+	)
+	(fp_line
+		(start 16.21 13.52)
+		(end 0.21 13.52)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f0a9461c-df6f-437d-91f3-68197dbb180c")
+	)
+	(fp_line
+		(start 16.21 13.52)
+		(end 16.21 10.77)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8f10fa6d-af96-498d-a9f0-eb310b9cd617")
+	)
+	(fp_line
+		(start 17.96 5.27)
+		(end 16.21 5.27)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "af9076cb-9466-4b3e-9bef-7022083c4324")
+	)
+	(fp_line
+		(start 17.96 10.77)
+		(end 16.21 10.77)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c1862636-619a-4a0f-9707-55981ad97da7")
+	)
+	(fp_arc
+		(start -1.54 10.77)
+		(mid -4.29 8.02)
+		(end -1.54 5.27)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6adbbb2a-6dac-402a-bcf6-e7ad9cc77e8e")
+	)
+	(fp_arc
+		(start 17.96 5.27)
+		(mid 20.71 8.02)
+		(end 17.96 10.77)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e213655f-ca66-4e95-9499-6d498d91daea")
+	)
+	(fp_circle
+		(center -1.54 8.02)
+		(end -0.04 8.02)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "c21db83b-08c7-4da9-84fb-e504a72bb977")
+	)
+	(fp_circle
+		(center 17.96 8.02)
+		(end 16.46 8.02)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "52af463a-2c75-4ac2-8657-cd9e4d4b00f2")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 5.9 3.61 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "4a249183-c9ee-4d29-921e-e647afb640a7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 1.71 12.02)
+		(size 1.905 1.905)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "0d006bd4-702d-473d-88a8-c2f8d3b075f6")
+	)
+	(pad "2" thru_hole circle
+		(at 4.25 12.02)
+		(size 1.905 1.905)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "979249e4-378a-4ac3-8d0f-9b3f69c476a3")
+	)
+	(pad "3" thru_hole circle
+		(at 6.79 12.02)
+		(size 1.905 1.905)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "05d32680-3ee3-4878-8d53-fb638cb671ce")
+	)
+	(pad "4" thru_hole circle
+		(at 9.33 12.02)
+		(size 1.905 1.905)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "e15d9ff2-e774-4ed6-b6c8-77f7ac7db0a4")
+	)
+	(pad "5" thru_hole circle
+		(at 11.87 12.02)
+		(size 1.905 1.905)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "6c9b0ee0-3cdd-4808-a9c1-26e37d52c985")
+	)
+	(pad "6" thru_hole circle
+		(at 14.41 12.02)
+		(size 1.905 1.905)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "e14ad35d-c27c-49ff-9838-5451f9675464")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/3D KICAD/vl53l0x/GY-VL53L1XV2.STEP"
+		(offset
+			(xyz 8.0772 -8.255 3.81)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -180 0 180)
+		)
+	)
+)

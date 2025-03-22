@@ -1,0 +1,253 @@
+(footprint "SS34"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Diodo Retificador Schottky SS34 40v 3a SMD")
+	(property "Reference" "REF**"
+		(at -1.65 -4.3375 0)
+		(layer "F.SilkS")
+		(uuid "ab9789f6-42c3-4932-8d0c-790109651e33")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "SS34"
+		(at 0.255 4.3375 0)
+		(layer "F.Fab")
+		(uuid "9bd34233-7c2f-4604-aad1-9abe158cb6af")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4d9260ba-4ce7-4d85-934f-684e8fe1043c")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "70dab2b3-9dfa-4f4f-9af2-49bfc8e60a73")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b12adb94-6921-451f-9043-5c9383dfbf2b")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -3.4375 -2.95)
+		(end -3.4375 -2.3)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "dbb17293-24f9-4b57-a3b4-c64421cbdd2d")
+	)
+	(fp_line
+		(start -3.4375 2.95)
+		(end -3.4375 2.3)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6689250b-8905-41e2-943d-e675d8ebdf22")
+	)
+	(fp_line
+		(start -3.4375 2.95)
+		(end 3.4375 2.95)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "85a99f09-5dc5-4233-a28b-7724c1e1d5b3")
+	)
+	(fp_line
+		(start 3.4375 -2.95)
+		(end -3.4375 -2.95)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "96b1fe20-457c-4a27-a37a-7eecae5e979a")
+	)
+	(fp_line
+		(start 3.4375 -2.3)
+		(end 3.4375 -2.95)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9706a912-fd21-46f3-940e-3a95e1267327")
+	)
+	(fp_line
+		(start 3.4375 2.95)
+		(end 3.4375 2.3)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0fd3576e-f2c3-4cc4-9026-9b66255595ec")
+	)
+	(fp_circle
+		(center -5 0)
+		(end -4.9 0)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "8d688a8c-613f-471d-843a-637502b82e86")
+	)
+	(fp_line
+		(start -4.65 -3.2)
+		(end -4.65 3.2)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "1d8678e6-6a8a-44a3-839f-358c7b0b968c")
+	)
+	(fp_line
+		(start -4.65 3.2)
+		(end 4.65 3.2)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "fdb6d5e5-c577-470f-a088-40a29b9380fa")
+	)
+	(fp_line
+		(start 4.65 -3.2)
+		(end -4.65 -3.2)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "9abb6906-1128-4cd2-9939-7ac34b41cfbf")
+	)
+	(fp_line
+		(start 4.65 3.2)
+		(end 4.65 -3.2)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "a6b2380b-c086-4cf1-8209-600e9b89bb86")
+	)
+	(fp_line
+		(start -3.4375 -2.95)
+		(end -3.4375 2.95)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c5b387dd-5c97-4ffc-ba5f-332632d5c3cd")
+	)
+	(fp_line
+		(start -3.4375 2.95)
+		(end 3.4375 2.95)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "aaafd410-1d97-40be-8ee6-a8e16d95af06")
+	)
+	(fp_line
+		(start 3.4375 -2.95)
+		(end -3.4375 -2.95)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "5aa6c902-7d61-45f1-9acb-b490838a508d")
+	)
+	(fp_line
+		(start 3.4375 2.95)
+		(end 3.4375 -2.95)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "58197f62-8a05-4740-a0e1-ed09d0f8a9aa")
+	)
+	(fp_circle
+		(center -5 0)
+		(end -4.9 0)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "81413c87-f465-4ce8-9c28-f3bc185c79d0")
+	)
+	(pad "A" smd rect
+		(at 3.4 0)
+		(size 2 3.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.102)
+		(uuid "e952043f-f88b-4ce9-b919-908571ff0ffb")
+	)
+	(pad "C" smd rect
+		(at -3.4 0)
+		(size 2 3.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.102)
+		(uuid "33e0d1a3-3292-40fc-9d57-77fd6a647d68")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/3D KICAD/SS34/SS34.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)

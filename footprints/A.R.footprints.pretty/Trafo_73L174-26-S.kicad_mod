@@ -1,0 +1,253 @@
+(footprint "Trafo_73L174-26-S"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -5.08 5.842 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "59de88d5-4004-4c42-be63-ab7029049692")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Trafo_73L174-26-S"
+		(at -5 28 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "1c23292c-83e2-4e90-a128-3bad97a949dc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fbcdbc12-590d-4b9a-b85f-fa7c9fb7c914")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3ebf854b-dfd4-4686-b7b8-2c6ed41ff024")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1db8e322-609d-42cd-af9b-b7bf9ee78963")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -17 7)
+		(end -17 26)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e0cec1cd-5fd8-4d8e-a2b4-ea6cd1fc3871")
+	)
+	(fp_line
+		(start -13 8)
+		(end -13 25)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "aac7498a-df84-4e1d-acbf-4ad02146e53a")
+	)
+	(fp_line
+		(start -9.9 6)
+		(end -8.1 6)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0bb8ef74-e181-45e7-8194-bf8b7344065d")
+	)
+	(fp_line
+		(start -9 6.9)
+		(end -9.9 6)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f4a768b2-7b38-4cd6-804f-48dfb1e41ee2")
+	)
+	(fp_line
+		(start -8.1 6)
+		(end -9 6.9)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "53173f9c-735f-435a-8dff-ada044e45d22")
+	)
+	(fp_line
+		(start -1 7)
+		(end -17 7)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "cbe76502-6a79-4551-ace4-86ee5712fc93")
+	)
+	(fp_line
+		(start -1 7)
+		(end -1 8)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "bb71a875-87ae-4d12-81ec-ad1e08ba2294")
+	)
+	(fp_line
+		(start -1 25)
+		(end -1 26)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "40b72c47-f15b-4546-892d-a258f1455b87")
+	)
+	(fp_line
+		(start -1 26)
+		(end -17 26)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "97efacaa-1db8-42b7-a479-820b16c3c44c")
+	)
+	(fp_line
+		(start 5 8)
+		(end -13 8)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d83bb1d1-2fc9-4722-9117-0bca7a7838d9")
+	)
+	(fp_line
+		(start 5 8)
+		(end 5 25)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4a360c70-0165-40b5-988f-860f1b90ae22")
+	)
+	(fp_line
+		(start 5 25)
+		(end -13 25)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e6ab836c-a1f5-4532-a394-49464884cfc9")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -4 17 0)
+		(layer "F.Fab")
+		(uuid "65aaf6ca-aae3-4123-b68c-1e4dd7b7772a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at -4 17 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "cebf65cc-dbdf-4a8f-8b11-98b86fd5ead8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at -9 10)
+		(size 2 2)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "1f35567e-0307-4ef7-85cc-df33f3b7b653")
+	)
+	(pad "2" thru_hole circle
+		(at 1 10)
+		(size 2 2)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "e87492c0-34a8-449d-a1e0-f598c10a6c5b")
+	)
+	(pad "3" thru_hole circle
+		(at -9 23)
+		(size 2 2)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "0f4d86a6-5070-4bf9-953f-aba372b34ae5")
+	)
+	(pad "4" thru_hole circle
+		(at 1 23)
+		(size 2 2)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "e78d698b-8b40-41fb-b583-b959beedcf09")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/3D KICAD/Trafo/EE14 Red Audio Transformer v3.step"
+		(offset
+			(xyz -4 -16.5 0.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)
